@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>navbar</title>
+	<meta name="viewport" content="width=device-wdith,initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<header>
+		<div class="logo">
+			<a href="">Question</a>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">About</a></li>
+				<li><a href="">Restart</a></li>
+				<li><a href="">Arabic</a></li>
+				<li><a href="">English</a></li>
+				<li><a href="">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="trigger-main">
+			<a href="#" class="hamBurger">
+				<span class="one"></span>
+				<span class="two"></span>
+			</a>
+		</div>
+		<div id="time"></div>
+	</header>
+<!--	<center style="margin-top:60px">Welcome</center>
+	<button id="start">Start Game</button>-->
+
+	<div class="Qu" id="Qu1" >
+		<h1>Question</h1>
+		<button class="answer" id="x_x">answer</button>
+		<button class="answer" id="y_y">answer</button>
+		<button class="answer" id="t_x">answer</button>
+		<button class="answer" id="z_z">answer</button>
+		<button type="submit" id="btn" disabled="">NEXT Question</button>
+	</div>
+	<div class="Qu" id="Qu2" style="display:none">
+		<h1>Question</h1>
+		<button class="answer" id="x_x">answer</button>
+		<button class="answer" id="true_x">answer</button>
+		<button class="answer" id="y_y">answer</button>
+		<button class="answer" id="z_z">answer</button>
+		<button type="submit" id="btn2" disabled="">NEXT Question</button>
+	</div>
+	<div class="Qu" id="Qu3" style="display:none">
+		<h1>Question</h1>
+		<button class="answer" id="x_x">answer</button>
+		<button class="answer" id="y_y">answer</button>
+		<button class="answer" id="z_z">answer</button>
+		<button class="answer" id="true_x">answer</button>
+		<button type="submit" id="btn3" disabled="">NEXT Question</button>
+	</div>
+	<div class="Qu" id="Qu4" style="display:none">
+		<h1>Question</h1>
+		<button class="answer" id="x_x">answer</button>
+		<button class="answer" id="y_y">answer</button>
+		<button class="answer" id="true_x">answer</button>
+		<button class="answer" id="z_z">answer</button>
+		<button type="submit" id="btn4" disabled="">NEXT Question</button>
+	</div>
+	<div class="Qu" id="Qu5" style="display:none">
+		<h1>Question</h1>
+		<button class="answer" id="true_x">answer</button>
+		<button class="answer" id="x_x">answer</button>
+		<button class="answer" id="y_y">answer</button>
+		<button class="answer" id="z_z">answer</button>
+		<button type="submit" id="btn5" disabled="">NEXT Question</button>
+	</div>
+	<div class="Qu" id="Qu6" style="display:none">
+		<h1>Question</h1>
+		<button class="answer" id="x_x">answer</button>
+		<button class="answer" id="y_y">answer</button>
+		<button class="answer" id="z_z">answer</button>
+		<button class="answer" id="true_x">answer</button>
+		<button type="submit" id="btn6" disabled="">NEXT Question</button>
+	</div>
+	<div class="Qu" id="Qu7" style="display:none">
+		<h1>Question</h1>
+		<button class="answer" id="true_x">answer</button>
+		<button class="answer" id="x_x">answer</button>
+		<button class="answer" id="y_y">answer</button>
+		<button class="answer" id="z_z">answer</button>
+		<button type="submit" id="btn7" disabled="">NEXT Question</button>
+	</div>
+	<div class="Qu" id="Qu8" style="display:none">
+		<h1>Question</h1>
+		<button class="answer" id="x_x">answer</button>
+		<button class="answer" id="y_y">answer</button>
+		<button class="answer" id="true_x">answer</button>
+		<button class="answer" id="z_z">answer</button>
+		<button type="submit" id="btn8" disabled="">NEXT Question</button>
+	</div>
+	<div class="Qu" id="Qu9" style="display:none">
+		<h1>Question</h1>
+		<button class="answer" id="true_x">answer</button>
+		<button class="answer" id="x_x">answer</button>
+		<button class="answer" id="y_y">answer</button>
+		<button class="answer" id="z_z">answer</button>
+		<button type="submit" id="btn9" disabled="">NEXT Question</button>
+	</div>
+	<div class="Qu" id="Qu10" style="display:none">
+		<h1>Question</h1>
+		<button class="answer" id="x_x">answer</button>
+		<button class="answer" id="true_x">answer</button>
+		<button class="answer" id="y_y">answer</button>
+		<button class="answer" id="z_z">answer</button>
+		<button type="submit" id="btn10" disabled="">NEXT Question</button>
+	</div>
+	<div class="Qu" id="Qu11" style="display:none">
+		<h1>Question</h1>
+		<button class="answer" id="x_x">answer</button>
+		<button class="answer" id="y_y">answer</button>
+		<button class="answer" id="z_z">answer</button>
+		<button class="answer" id="true_x">answer</button>
+		<button type="submit" id="btn11" disabled="">NEXT Question</button>
+	</div>
+	<div class="Qu" id="Qu12" style="display:none">
+		<h1>Question</h1>
+		<button class="answer" id="true_x">answer</button>
+		<button class="answer" id="x_x">answer</button>
+		<button class="answer" id="y_y">answer</button>
+		<button class="answer" id="z_z">answer</button>
+		<button type="submit" id="btn12" disabled="">NEXT Question</button>
+	</div>
+	<div class="Qu" id="Qu13" style="display:none">
+		<h1>Question</h1>
+		<button class="answer" id="true_x">answer</button>
+		<button class="answer" id="x_x">answer</button>
+		<button class="answer" id="y_y">answer</button>
+		<button class="answer" id="z_z">answer</button>
+		<button type="submit" id="btn13" disabled="">NEXT Question</button>
+	</div>
+	<div class="Qu" id="Qu14" style="display:none">
+		<h1>Question</h1>
+		<button class="answer" id="x_x">answer</button>
+		<button class="answer" id="true_x">answer</button>
+		<button class="answer" id="y_y">answer</button>
+		<button class="answer" id="z_z">answer</button>
+		<button type="submit" id="btn14" disabled="">NEXT Question</button>
+	</div>
+	<div class="Qu" id="Qu15" style="display:none">
+		<h1>Question</h1>
+		<button class="answer" id="x_x">answer</button>
+		<button class="answer" id="y_y">answer</button>
+		<button class="answer" id="true_x">answer</button>
+		<button class="answer" id="z_z">answer</button>
+		<button type="submit" id="btn15" disabled="">NEXT Question</button>
+	</div>
+	<div class="Qu" id="Qu16" style="display:none">
+		<h1>Question</h1>
+		<button class="answer" id="x_x">answer</button>
+		<button class="answer" id="y_y">answer</button>
+		<button class="answer" id="z_z">answer</button>
+		<button class="answer" id="true_x">answer</button>
+		<button type="submit" id="btn17" disabled="">NEXT Question</button>
+	</div>
+	<div class="Qu" id="Qu17" style="display:none">
+		<h1>Question</h1>
+		<button class="answer" id="true_x">answer</button>
+		<button class="answer" id="x_x">answer</button>
+		<button class="answer" id="y_y">answer</button>
+		<button class="answer" id="z_z">answer</button>
+		<button type="submit" id="btn18" disabled="">NEXT Question</button>
+	</div>
+	<div class="Qu" id="Qu18" style="display:none">
+		<h1>Question</h1>
+		<button class="answer" id="x_x">answer</button>
+		<button class="answer" id="true_x">answer</button>
+		<button class="answer" id="y_y">answer</button>
+		<button class="answer" id="z_z">answer</button>
+		<button type="submit" id="btn18" disabled="">NEXT Question</button>
+	</div>
+	<div class="Qu" id="Qu19" style="display:none">
+		<h1>Question</h1>
+		<button class="answer" id="x_x">answer</button>
+		<button class="answer" id="y_y">answer</button>
+		<button class="answer" id="z_z">answer</button>
+		<button class="answer" id="true_x">answer</button>
+		<button type="submit" id="btn19" disabled="">NEXT Question</button>
+	</div>
+	<div class="Qu" id="Qu20" style="display:none">
+		<h1>Question</h1>
+		<button class="answer" id="true_x">answer</button>
+		<button class="answer" id="x_x">answer</button>
+		<button class="answer" id="y_y">answer</button>
+		<button class="answer" id="z_z">answer</button>
+		<button type="submit" id="btn20" disabled="">NEXT Question</button>
+	</div>
+	<div class="Qu" id="Qu21" style="display:none">
+		<h1>Question</h1>
+		<button class="answer" id="x_x">answer</button>
+		<button class="answer" id="y_y">answer</button>
+		<button class="answer" id="true_x">answer</button>
+		<button class="answer" id="z_z">answer</button>
+		<button type="submit" id="btn21" disabled="">NEXT Question</button>
+	</div>
+	<div class="Qu" id="Qu22" style="display:none">
+		<h1>Question</h1>
+		<button class="answer" id="true_x">answer</button>
+		<button class="answer" id="x_x">answer</button>
+		<button class="answer" id="y_y">answer</button>
+		<button class="answer" id="z_z">answer</button>
+		<button type="submit" id="btn22" disabled="">NEXT Question</button>
+	</div>
+	<div class="Qu" id="Qu23" style="display:none">
+		<h1>Question</h1>
+		<button class="answer" id="x_x">answer</button>
+		<button class="answer" id="y_y">answer</button>
+		<button class="answer" id="z_z">answer</button>
+		<button class="answer" id="true_x">answer</button>
+		<button type="submit" id="btn23" disabled="">NEXT Question</button>
+	</div>
+	<div class="Qu" id="Qu24" style="display:none">
+		<h1>Question</h1>
+		<button class="answer" id="x_x">answer</button>
+		<button class="answer" id="y_y">answer</button>
+		<button class="answer" id="true_x">answer</button>
+		<button class="answer" id="z_z">answer</button>
+		<button type="submit" id="btn24" disabled="">NEXT Question</button>
+	</div>
+	<div class="Qu" id="Qu25" style="display:none">
+		<h1>Question</h1>
+		<button class="answer" id="x_x">answer</button>
+		<button class="answer" id="true_x">answer</button>
+		<button class="answer" id="y_y">answer</button>
+		<button class="answer" id="z_z">answer</button>
+		<button type="submit" id="btn25" disabled="">NEXT Question</button>
+	</div>
+	<div class="Qu" id="Qu26" style="display:none">
+		<h1>Question</h1>
+		<button class="answer" id="x_x">answer</button>
+		<button class="answer" id="y_y">answer</button>
+		<button class="answer" id="z_z">answer</button>
+		<button class="answer" id="true_x">answer</button>
+		<button type="submit" id="btn26" disabled="">NEXT Question</button>
+	</div>
+	<div class="Qu" id="Qu27" style="display:none">
+		<h1>Question</h1>
+		<button class="answer" id="x_x">answer</button>
+		<button class="answer" id="y_y">answer</button>
+		<button class="answer" id="z_z">answer</button>
+		<button class="answer" id="true_x">answer</button>
+		<button type="submit" id="btn27" disabled="">NEXT Question</button>
+	</div>
+	<div class="Qu" id="Qu28" style="display:none">
+		<h1>Question</h1>
+		<button class="answer" id="true_x">answer</button>
+		<button class="answer" id="x_x">answer</button>
+		<button class="answer" id="y_y">answer</button>
+		<button class="answer" id="z_z">answer</button>
+		<button type="submit" id="btn28" disabled="">NEXT Question</button>
+	</div>
+	<div class="Qu" id="Qu29" style="display:none">
+		<h1>Question</h1>
+		<button class="answer" id="x_x">answer</button>
+		<button class="answer" id="true_x">answer</button>
+		<button class="answer" id="y_y">answer</button>
+		<button class="answer" id="z_z">answer</button>
+		<button type="submit" id="btn29" disabled="">NEXT Question</button>
+	</div>
+	<div class="Qu" id="Qu30" style="display:none">
+		<h1>Question</h1>
+		<button class="answer" id="x_x">answer</button>
+		<button class="answer" id="y_y">answer</button>
+		<button class="answer" id="true_x">answer</button>
+		<button class="answer" id="z_z">answer</button>
+		<button type="submit" id="btn30" disabled="">NEXT Question</button>
+	</div>
+
+	<script src="N.js" type="text/javascript" charset="utf-8"></script>
+
+</body>
+</html>
